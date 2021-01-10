@@ -1,0 +1,56 @@
+﻿<Window x:Class="Scala.Examen.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Scala.Examen.Wpf"
+        mc:Ignorable="d"
+        Title="Examen Start2Program" Height="735" Width="800" >
+    <Grid>
+        <GroupBox Header="Vraag 1" HorizontalAlignment="Center" Height="207" Margin="0,10,0,0" VerticalAlignment="Top" Width="780">
+            <Grid>
+                <Label Content="Naam : " HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top"/>
+                <Label Content="Voornaam : " HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top"/>
+                <Label Content="Straat : " HorizontalAlignment="Left" Margin="11,72,0,0" VerticalAlignment="Top"/>
+                <Label Content="Postnummer : " HorizontalAlignment="Left" Margin="11,102,0,0" VerticalAlignment="Top"/>
+                <Label Content="Gemeente : " HorizontalAlignment="Left" Margin="10,132,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="txtNaam"  HorizontalAlignment="Left" Height="22" Margin="120,12,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+                <TextBox x:Name="txtVoornaam"  HorizontalAlignment="Left" Height="22" Margin="120,42,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+                <TextBox x:Name="txtStraat"  HorizontalAlignment="Left" Height="22" Margin="120,72,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+                <TextBox x:Name="txtPost"  HorizontalAlignment="Left" Height="22" Margin="120,102,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+                <TextBox x:Name="txtGemeente"  HorizontalAlignment="Left" Height="22" Margin="120,132,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+                <Button x:Name="btnMaakNaamkaartje" Content="Maak naamkaartje" HorizontalAlignment="Left" Height="26" Margin="284,12,0,0" VerticalAlignment="Top" Width="133" />
+                <TextBlock x:Name="tblNaamKaartje" Background="OldLace" HorizontalAlignment="Left" Height="142" Margin="433,12,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="309"/>
+                <Button x:Name="btnMaakNaamkaartjeLeeg" Content="Maak naamkaartje leeg" HorizontalAlignment="Left" Height="26" Margin="284,46,0,0" VerticalAlignment="Top" Width="133" />
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Vraag 2" HorizontalAlignment="Center" Height="152" Margin="0,222,0,0" VerticalAlignment="Top" Width="780">
+            <Grid>
+                <Label Content="Wetenschappen : " HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top"/>
+                <Label Content="Wiskunde : " HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top"/>
+                <Label Content="Talen : " HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="txtWetenschappen" TextAlignment="Right"  HorizontalAlignment="Left" Height="22" Margin="130,12,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="68"/>
+                <TextBox x:Name="txtWiskunde" TextAlignment="Right"  HorizontalAlignment="Left" Height="22" Margin="130,42,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="68"/>
+                <TextBox x:Name="txtTalen" TextAlignment="Right"  HorizontalAlignment="Left" Height="22" Margin="130,72,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="68"/>
+                <Button x:Name="btnBerekenResultaat" Content="Bereken resultaat" HorizontalAlignment="Left" Height="28" Margin="238,10,0,0" VerticalAlignment="Top" Width="129" />
+                <Label Content="/10" HorizontalAlignment="Left" Margin="199,10,0,0" VerticalAlignment="Top" Width="48"/>
+                <Label Content="/10" HorizontalAlignment="Left" Margin="199,40,0,0" VerticalAlignment="Top" Width="48"/>
+                <Label Content="/10" HorizontalAlignment="Left" Margin="199,70,0,0" VerticalAlignment="Top" Width="48"/>
+                <Label x:Name="lblProcent" Content="" Background="OldLace" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Height="26" Margin="384,10,0,0" VerticalAlignment="Top" Width="115"/>
+                <Label Content="%" HorizontalAlignment="Left" Margin="504,8,0,0" VerticalAlignment="Top" Width="27"/>
+                <Label x:Name="lblBeoordeling" Content="" Background="OldLace" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="26" Margin="384,47,0,0" VerticalAlignment="Top" Width="374"/>
+                <Button x:Name="btnMaakBeoorkelingLeeg" Content="Maak resultaat leeg" HorizontalAlignment="Left" Height="28" Margin="238,43,0,0" VerticalAlignment="Top" Width="129" />
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Vraag 3" HorizontalAlignment="Center" Height="315" Margin="0,385,0,0" VerticalAlignment="Top" Width="780">
+            <Grid>
+                <ListBox x:Name="lstKlasgenoten" HorizontalAlignment="Left" Height="219" Margin="10,63,0,0" VerticalAlignment="Top" Width="249"/>
+                <TextBox x:Name="txtKlasgenoot" HorizontalAlignment="Left" Height="21" Margin="10,10,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="249"/>
+                <Button x:Name="btnToevoegen" Content="Toevoegen" HorizontalAlignment="Left" Height="23" Margin="10,35,0,0" VerticalAlignment="Top" Width="249" />
+                <TextBlock x:Name="tblStatistiek" HorizontalAlignment="Left" Height="236" Margin="301,46,0,0" Background="OldLace" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="457"/>
+                <Label Content="Statistiek" HorizontalAlignment="Left" Height="30" Margin="301,11,0,0" VerticalAlignment="Top" Width="105"/>
+            </Grid>
+        </GroupBox>
+
+    </Grid>
+</Window>
