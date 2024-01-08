@@ -2,13 +2,15 @@
   
 ## Deel 1  
 
-<img src="/assets/vbex01.png" />
+<img src="/assets/vbex01.png" />  
   
 In de tekstvakken naam, voornaam, straat, postnummer en gemeente voer je diverse waarden in.  
 Wanneer op de knop "Maak naamkaartje" wordt geklikt worden alle gegevens uitgelezen in rechts afgebeeld.  
 Klik je op "Maak naamkaartje leeg" dan verdwijnen de gegevens terug en worden de tekstvakken leeggemaakt.  
   
 ## Deel 2  
+  
+<img src="/assets/vbex02.png" />  
   
 Je voert een score als geheel getal in voor de 3 vakken.  
 Wanneer op de knop "Bereken resultaat" wordt geklikt dient het percentage van de totaalscore berekend te worden en dient een beoordeling te verschijnen.  
@@ -23,6 +25,8 @@ Je zorgt er uiteraard ook voor dat bij foutieve invoer (bv tekst) je programma n
 Klik je op "Maak resultaat leeg" dan worden de resultaten leeggemaakt en worden de tekstvakken ingesteld op "0".  
   
 ## Deel 3   
+
+  <img src="/assets/vbex03.png" />
   
 Bij deze opdracht voer je telkens een naam (o.i.d.) in en je klikt op "Toevoegen".  
 Wanneer de invoer niet leeg is, dan wordt de naam toegevoegd aan een List<string>.  
