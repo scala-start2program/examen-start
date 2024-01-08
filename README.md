@@ -1,6 +1,8 @@
 # Voorbeeldexamen Start2Program
   
 ## Deel 1  
+
+<img src="/assets/vbex01.png" />
   
 In de tekstvakken naam, voornaam, straat, postnummer en gemeente voer je diverse waarden in.  
 Wanneer op de knop "Maak naamkaartje" wordt geklikt worden alle gegevens uitgelezen in rechts afgebeeld.  
