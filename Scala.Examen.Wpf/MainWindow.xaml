@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Scala.Examen.Wpf"
         mc:Ignorable="d"
-        Title="Examen Start2Program" Height="735" Width="800" >
+        Title="Oefenexamen Start2Program" Height="735" Width="800" >
     <Grid>
         <GroupBox Header="Vraag 1" HorizontalAlignment="Center" Height="207" Margin="0,10,0,0" VerticalAlignment="Top" Width="780">
             <Grid>
